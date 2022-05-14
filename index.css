@@ -13,3 +13,36 @@ p{
 	width: 30%;
 	padding-bottom: 20px;
 }
+
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+    font-family: Raleway;
+	margin-left: 1.66%;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+    font-family: Raleway;
+	margin-left: 1.66%;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+    font-family: Raleway;
+	margin-left: 1.66%;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
